@@ -41,10 +41,10 @@ After each face has been appropriately converted into an input Tensor for the ne
 input, we can apply the net to each face. The ouput should be the predicted the facial keypoints.
 These keypoints will need to be "un-normalized" for display.
 
-[Mona Lisa Facial Keypoints Detection](https://raw.githubusercontent.com/SamuelaAnastasi/CVND_Project_Facial_Keypoints_Detection/master/images/mona_lisa.jpg)
+![Mona Lisa Facial Keypoints Detection](https://raw.githubusercontent.com/SamuelaAnastasi/CVND_Project_Facial_Keypoints_Detection/master/images/key_points_mona_lisa.jpg)
 
 ### 5. Facial Filters
 Using the trained facial keypoint detector, we can do things like add filters to a person’s
 face, automatically. We can play around with adding sunglasses or other funny elements to detected face’s in an image by using the keypoints detected around a person’s eyes, mouth, nose etc.
 
-[Fun with Keypoints](https://raw.githubusercontent.com/SamuelaAnastasi/CVND_Project_Facial_Keypoints_Detection/master/images/fun_keypoints.jpg)
+![Fun with Keypoints](https://raw.githubusercontent.com/SamuelaAnastasi/CVND_Project_Facial_Keypoints_Detection/master/images/fun_keypoints.jpg)
